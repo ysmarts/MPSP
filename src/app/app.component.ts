@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MenuItem } from 'primeng/api';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mpsp';
+  model = {
+    left: true,
+    middle: false,
+    right: false
+  };
+  items: MenuItem[] = [
+    {label: 'INSTITUCIONAL'},
+    {label: 'ÁREAS DE ATUAÇÃO'},
+    {label: 'CIDADÃO'},
+    {label: 'SERVIÇOS'},
+    {label: 'SALA DE IMPRENSA'},
+    {label: 'FALE CONOSCO'}
+];
+
 }

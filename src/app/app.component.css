@@ -1,0 +1,44 @@
+#menucabecalho ul {
+    padding: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    list-style-type: disc;
+}
+#menucabecalho li {
+    list-style: none;
+    display: inline;
+    padding: 3px;
+    font-size: 0.8em;
+    border: 0;
+}
+#menucabecalho li a {
+    color: gray;
+}
+#logo img {
+    width: 180px;
+}
+.rs img {
+    width: 30px;
+}
+#fundo, #corpo {
+    background-image: url(https://blog.focusconcursos.com.br/img/uploads/thumbnails/5daf4e1474468-1200x630-ffffff.png);
+    background-repeat: no-repeat;
+    background-position: center 69px;
+    background-color: #FFF;
+
+}
+#corpo {
+    width: 1000px;
+    margin: 0.1em auto;
+    text-align: left;
+    position: relative;
+}
+
+.busca #txt {
+    background-color: gray;
+    padding: 2px;
+    margin: 0 0 0 5px;
+    vertical-align: top;
+}
